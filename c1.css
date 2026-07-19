@@ -1,11 +1,9 @@
 body{
     font-family: Arial, sans-serif;
-    margin: 20px;
+    margin: 0px;
     padding: 20px;
     font-size: 110%;
-    /* background-image: url("1.jpg");
-    background-size: cover;
-    background-repeat: no-repeat; */
+    min-height: 100vh;
     color: rgb(255, 255, 255);
     background:linear-gradient(to right, rgb(240, 123, 123),rgb(201, 42, 42),rgb(66, 24, 24));
 }
@@ -38,7 +36,8 @@ nav a:hover{
 }
 form {
                 background: linear-gradient(to bottom, rgb(58, 241, 226), rgb(8, 63, 58));
-                width: 650px;
+                width: 90%;
+                max-width: 650px;
                 padding: 10px 20px 20px 20px;
                 margin: auto;
                 margin-top: 100px;
@@ -105,7 +104,7 @@ th, td {
                 border: 1px solid #ddd;
                 width: auto;
                 height: auto;
-                font-size: 150%;
+                font-size: 120%;
 }
 th {
                 background-color: #8a1313;
@@ -143,7 +142,8 @@ button:hover {
 }
 img{
                     width: 150px;
-                    height: 150px;
+                    max-width: 100%;
+                    height: auto;
                     border-radius: 10px;
 }
 label{
