@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Stationery Items
+        </title>
+        <script type="text/javascript" src="j1.js"></script>
+        <link rel="stylesheet" href="c1.css">
+    </head>
+    <body>
+        <nav>
+            <a href="index.html">|Home|</a>
+            <a href="About.html">|About|</a>
+            <a href="Next.html">|Stationery|</a>
+            <a href="Order.html">|Place Order|</a>
+            <a href="subjects.html">|Subjects|</a>
+            <a href="contact.html">|Contact|</a>
+        </nav>
+        <h1>
+            Stationery Items Menu:
+        </h1>
+            <div class="Card">
+                <img src="pens.jpg">
+                <h3>
+                    Pens
+                </h3>
+                <p>
+                    50Rs.
+                </p>
+            </div>
+            <div class="Card">
+            <img src="pencils.jpg">
+            <h3>
+                Pencils
+            </h3>
+            <p>
+                70Rs.
+            </p>
+        </div>
+         <div class="Card">
+            <img src="notebooks.jpg">
+            <h3>
+                NoteBooks(120pages 6pcs)
+            </h3>
+             <p>
+                200Rs.
+            </p>
+        </div>
+            <div class="Card">
+                <img src="erasers.jpg">
+                <h3>
+                    Erasers
+                </h3>
+                <p>
+                    30Rs.
+                </p>
+            </div>
+            <div class="Card">
+                <label>
+                    Select Items:
+                </label>
+                <select id="items1">
+                    <option>
+                    select Items
+                    </option>
+                    <option>
+                        Pens
+                    </option>
+                    <option>
+                        Pencils
+                    </option>
+                    <option>
+                        Notebooks
+                    </option>
+                    <option>
+                        Erasers
+                    </option>
+                </select>
+                <br><br>
+                <label>Quantity:</label>
+                <input type="number" min="1" id="quantity" placeholder="Quantity" style="font-size: 110%;">
+            </div>
+        <button type="button" onclick="if(goBack()){ location.href='Order.html' }">
+                Place Order
+            </button>
+    </body>
+</html>

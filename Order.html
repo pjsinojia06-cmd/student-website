@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Order
+        </title>
+        <script type="text/javascript" src="j1.js"></script>
+        <link rel="stylesheet" href="c1.css">
+    </head>
+    <body>
+        <nav>
+            <a href="index.html">|Home|</a>
+            <a href="About.html">|About|</a>
+            <a href="Next.html">|Stationery|</a>
+            <a href="Order.html">|Place Order|</a>
+            <a href="subjects.html">|Subjects|</a>
+            <a href="contact.html">|Contact|</a>
+        </nav>
+        <h1>
+            Order Form:
+        </h1>
+        <form style="width: auto;height: auto;" onsubmit="submitted()">
+            <label>
+                Order Item Names:
+            </label>
+            <select id="items">
+                    <option>
+                    select Items
+                    </option>
+                    <option>
+                        Pens
+                    </option>
+                    <option>
+                        Pencils
+                    </option>
+                    <option>
+                        Notebooks
+                    </option>
+                    <option>
+                        Erasers
+                    </option>
+                </select>
+                <br><br>
+            <label>
+                Quantity:
+            </label>
+            <input type="number" min="1" id="quantity" placeholder="Quantity" style="font-size: 110%;">
+            <br><br>
+            <button type="submit" style="width: 100%;">
+                Submit Order
+            </button>
+        </form>
+    </body>
+</html>
