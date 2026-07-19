@@ -1,11 +1,14 @@
 body{
     font-family: Arial, sans-serif;
     margin: 0px;
-    padding: 20px;
+    padding: 0px;
     font-size: 110%;
     min-height: 100vh;
     color: rgb(255, 255, 255);
     background:linear-gradient(to right, rgb(240, 123, 123),rgb(201, 42, 42),rgb(66, 24, 24));
+}
+html, body{
+    overflow-x: hidden;
 }
 h1{
     color: #100261;
